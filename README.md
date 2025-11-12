@@ -41,9 +41,9 @@ L’utilisateur choisit au lancement :
    Si au moins une de ces versions devient SAFE, alors le rapport est considéré comme SAFE pour la Partie 2.
 
 4. Méthodes principales :
-   - isSafe(int[] levels) → vérifie si un rapport est strictement sûr (Partie 1)
-   - isReportSafeWithTolerance(String reportLine) → vérifie la sécurité avec suppression possible d’un élément (Partie 2)
-   - countSafeReports() / countSafeReportsWithTolerance() → comptent le nombre de rapports sûrs selon la partie choisie.
+   - isSafe(int[] levels) : vérifie si un rapport est strictement sûr (Partie 1)
+   - isReportSafeWithTolerance(String reportLine) : vérifie la sécurité avec suppression possible d’un élément (Partie 2)
+   - countSafeReports() / countSafeReportsWithTolerance() : comptent le nombre de rapports sûrs selon la partie choisie.
 
 5. Affichage du résultat :
    À la fin, le programme affiche :
